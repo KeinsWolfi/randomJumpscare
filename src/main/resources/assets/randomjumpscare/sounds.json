@@ -1,0 +1,11 @@
+{
+  "jumpscare.foxy": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "jumpscare/foxy_scream",
+        "stream": false
+      }
+    ]
+  }
+}
