@@ -34,10 +34,6 @@ public class RandomJumpscare {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        System.out.println("Dirt: " + Blocks.dirt.getUnlocalizedName());
-		// Below is a demonstration of an access-transformed class access.
-        System.out.println("Color State: " + new GlStateManager.Color());
-
         MinecraftForge.EVENT_BUS.register(this);
 
         new TickEventHandler();
